@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'Rajdhani';
+    src: url('../assets/Rajdhani-Bold.ttf');
+}
+body{
+    margin: 0;
+    font-family: 'Rajdhani';
+    background: url(../assets/4k-car-g6a4f0e15hkua5oa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: none;
+    background-color: transparent;
+}
+
+
+.logo img{
+    padding-top: 10px;
+    width: 15%;
+    padding-left: 50px;
+}
+
+li{
+    /* color: black; */
+    display: inline-block;
+    /* text-decoration: none; */
+    list-style: none;
+}
+
+li a{
+    color: black;
+    text-decoration: none;
+    margin-right: 25px;
+}
+li a:hover{
+    text-decoration:underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
+}
+.download_button{
+    color: black;
+    background-color: lightgreen;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-left: -10px; 
+    margin-right: 70px;
+}
+.download_button:hover {
+    transform: scale(1,1);
+    animation-duration: 3ms;
+    background-color: green;
+}
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-left: 650px;
+    max-width: 100%;
+
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #218838;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    margin-top: 150px;
+    max-width: 100%;
+    /* padding-top: 100px; */
+}
+
+.platform {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.platform img {
+    padding-top: 70px;
+    width: 10%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.copyright {
+    padding-top: 20px;
+    font-weight: lighter;
+}

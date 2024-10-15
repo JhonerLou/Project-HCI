@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'Rajdhani';
+    src: url('../assets/Rajdhani-Bold.ttf');
+}
+
+body {
+    margin: 0;
+    font-family: 'Rajdhani';
+    background: url(../assets/tyler-clemmensen-d1Jum1vVLew-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: none;
+    background-color: transparent;
+}
+
+
+.logo img{
+    padding-top: 10px;
+    width: 15%;
+    padding-left: 50px;
+}
+
+li{
+    /* color: black; */
+    display: inline-block;
+    /* text-decoration: none; */
+    list-style: none;
+}
+
+li a{
+    color: black;
+    text-decoration: none;
+    margin-right: 25px;
+}
+li a:hover{
+    text-decoration:underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
+}
+.download_button{
+    color: black;
+    background-color: lightgreen;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-left: -10px; 
+    margin-right: 70px;
+}
+.download_button:hover {
+    transform: scale(1,1);
+    animation-duration: 3ms;
+    background-color: green;
+}
+
+.message{
+    padding: 120px;
+}
+
+.title{
+    font-size: 85px;
+    color: #F90854;
+}
+
+.caption{
+    font-size: 25px;
+    color: black;
+}
+
+.container{
+    padding-left: 100px;
+    width: 90%;
+    height: 780px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1{
+    margin: 0;
+    width: 30%;
+    background: white;
+    /* border: white solid 2px; */
+    /* border-radius: 8px; */
+    height: 90%;
+    filter: drop-shadow(px 4px black);
+    
+}
+.box2{
+    width: 30%;
+    background: white;
+    /* border: white solid 2px; */
+    /* border-radius: 8px; */
+    height: 90%;
+    filter: drop-shadow(0px 4px black);
+    
+}
+.box3{
+    width: 30%;
+    background: white;
+    /* border: white solid 2px; */
+    /* border-radius: 8px; */
+    height: 90%;
+    filter: drop-shadow(0px 4px black);
+}
+
+.text1 h2{
+    padding: 10px 35px;
+}
+.text1 h4{
+    padding: 10px 35px;
+    opacity: 0.5;
+}
+.text1 p{
+    font-size: 12px;
+    padding-left: 35px;
+    opacity: 0.8;
+    text-align: justify;
+    padding-right: 35px;
+}
+.text2 h2{
+    padding: 10px 35px;
+}
+.text2 h4{
+    padding: 10px 35px;
+    opacity: 0.5;
+}
+.text2 p{
+    font-size: 12px;
+    padding-left: 35px;
+    opacity: 0.8;
+    text-align: justify;
+    padding-right: 35px;
+}
+
+.text3 h2{
+    padding: 10px 35px;
+}
+.text3 h4{
+    padding: 10px 35px;
+    opacity: 0.5;
+}
+.text3 p{
+    font-size: 12px;
+    padding-left: 35px;
+    opacity: 0.8;
+    text-align: justify;
+    padding-right: 35px;
+}
+
+.image1 img{
+    width: 100%; 
+}
+.image2 img{
+    width: 100%; 
+}
+.image3 img{
+    width: 100%;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.platform{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.platform img{
+    padding-top: 70px;
+    width: 10%;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.copyright{
+    padding-top: 20px;
+    font-weight: lighter;
+}

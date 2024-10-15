@@ -1,0 +1,379 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Rajdhani';
+    src: url('../assets/Rajdhani-Bold.ttf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('../assets/evgeny-tchebotarev-aiwuLjLPFnU-unsplash.jpg');
+ 
+    background-size: 1920px;
+    background-repeat: no-repeat;
+  
+    font-family: 'Rajdhani';
+}
+
+header {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    z-index: 1000; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: url('../assets/header-background.jpg') no-repeat center center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    height: 150px;
+}
+
+
+header img {
+    max-width: 100%;
+    height: auto;
+    width: 80px; 
+    padding-left: 20px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin-left: auto; 
+    margin-right: 20px; 
+    padding-right: 30px;
+}
+
+header ul li {
+    position: relative; 
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 13px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+
+header ul li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: red; 
+    left: 0;
+    bottom: 0;
+    transition: width 0.3s ease;
+}
+
+header ul li a:hover::after {
+    width: 100%;
+}
+
+
+.download_button {
+    color: black;
+    background-color: lightgreen;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-left: -10px; 
+}
+
+.download_button:hover {
+    background-color: green;
+}
+
+
+.satu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85vh; 
+}
+
+.hal-depan,
+.judul_awal,
+h2,
+.logo {
+    /* font-family: 'Rajdhani'; */
+    margin-bottom: 20px; /* Add spacing between elements */
+}
+
+.judul_awal{
+    font-size: 100px;
+    font-family: Rajdhani;
+    color: #F90854;
+}
+.caption_awal{
+    font-family: 'Rajdhani';
+    font-size: 75px;
+    color: white
+}
+.logo {
+    max-width: 100%;
+    width: 200px;
+    margin-bottom: 10px; /* Adjust margin to move the logo upward */
+}
+
+.dua{
+    /* padding-left: 50px; */
+    margin-top: 320px;
+    height: 1920px 700px; 
+    background-image: url(../assets/gabriel-gurrola-u6BPMXgURuI-unsplash.jpg);
+    background-size: cover;
+    
+    max-width: 100%;
+   background-repeat: no-repeat;
+   display: flex;
+}
+
+.description_awal{
+    padding-left: 150px;
+    padding-top: 200px;
+}
+
+.deskripsi-awal{
+    padding-right: 650px;
+    font-size: 18px;
+    color: white;
+}
+.apa_baru{
+    margin-top: 50px;
+    /* font-family: 'Radjhani'; */
+    color: white;
+    font-size: 80px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+    text-decoration-color: #F90854;
+}
+.gambar_awal img {
+    max-width: 100%;
+    height: auto;
+    width: 80%; /* Adjust the width as needed */
+    margin-right: 350px; /* Add spacing between the images */
+    margin-top: 50px;
+    padding-bottom: 80px;
+}
+
+/* Optional: Add a container for the images */
+.gambar_awal {
+    display: flex;
+    align-items: center;
+    flex-direction: column
+}
+
+.tiga{
+    height: 1020px;
+    background-image: url(../assets/tyler-clemmensen-d1Jum1vVLew-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    /* text-align: right; */
+}
+.tiga h1,h3,button{
+    /* display: flex; */
+    text-align: right;
+    flex-direction: column;
+    padding-right: 150px;
+    /* color: white; */
+}
+.kiri_dua{
+    width: 50%;
+    padding-top: 150px;
+    padding-left: 300px;
+}
+.kiri_dua img{
+    padding-top: 50px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    justify-content: space-between;
+}
+.judul_dua{
+    color: white;
+    font-size: 75px;
+}
+.caption_dua{
+    padding-top: 10px;
+    color: #F90854;
+}
+h3{
+    padding-top: 10px;
+    /* background-color: black; */
+    color: white;
+}
+.kanan_dua{
+    padding-top: 300px;
+}
+.download_button2:nth-child(1):before,
+.download_button2:nth-child(1):after{
+	background: linear-gradient(235deg, #89ff00, #010615, #00bcd4);
+}
+.download_button2:nth-child(2):before,
+.download_button2:nth-child(2):after{
+	background: linear-gradient(235deg, #ff005e, #010615, #fbff00);
+}
+.download_button2:nth-child(3):before,
+.download_button2:nth-child(3):after{
+	background: linear-gradient(235deg, #772aff, #010615, #2196F3);
+}
+.download_button2{
+    /* padding-top: 40px; */
+    color: white;
+    background-color: transparent;
+    border: solid 2px black;
+    padding: 10px 45px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    background: rgba(255,255,255,.1);
+    margin-top: 40px;
+    margin-left: 560px;
+    /* margin-left: -10px; Move the button slightly to the left */
+    /* padding-right: 50px ; */
+    /* border-radius: 1px; */
+}
+.download_button2 a{
+    text-decoration: none;
+    color: white;
+}
+.download_button2:hover {
+    transform: scale(2,2);
+    animation-duration: 3ms;
+}
+/* Style the footer */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.platform{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.platform img{
+    padding-top: 70px;
+    width: 10%;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.copyright{
+    padding-top: 20px;
+    font-weight: lighter;
+}
+
+
+@media (max-width: 768px) {
+    body{
+        width: 50%;
+    }
+    header {
+        display: flex;
+        padding-top: 30px;
+        align-items: flex-start;
+        height: auto; /* Adjust height to auto for smaller screens */
+    }
+
+    header ul {
+        /* flex-direction: column; */
+        gap: 0px;
+        margin-left: 0; /* Reset margin for smaller screens */
+        margin-right: 0; /* Reset margin for smaller screens */
+    }
+
+    header img {
+        padding-top: 0px;
+        width: 50px; /* Adjust as needed */
+    }
+     .deskripsi-awal {
+        padding-right: 20px; /* Adjust padding for smaller screens */
+    }
+    .download_button {
+        color: black;
+        background-color: lightgreen;
+        border: none;
+        padding: 5px 15px;
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 10px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        margin-left: 50px; /* Move the button slightly to the left */
+    }
+    .satu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 50%; /* Set the height to fill the viewport */
+        /* margin-bottom: 600px; */
+    }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+    body{
+        width: 25%;
+    }
+    header {
+        padding: 10px;
+    }
+
+    header img {
+        width: 100px; /* Adjust as needed */
+    }
+
+    header ul {
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    header ul li {
+        width: 100%;
+    }
+
+    header ul li a {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .download_button {
+        margin-left: 0; /* Reset margin for smaller screens */
+        align-self: flex-start; /* Align the button to the end */
+    }
+  
+}
+
