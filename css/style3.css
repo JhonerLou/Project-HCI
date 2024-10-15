@@ -1,0 +1,313 @@
+@font-face {
+    font-family: 'Rajdhani';
+    src: url('../assets/Rajdhani-Bold.ttf');
+}
+body{
+    margin: 0;
+    font-family: 'Rajdhani';
+    background: url(../assets/4k-car-g6a4f0e15hkua5oa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: none;
+    background-color: transparent;
+}
+
+
+.logo img{
+    padding-top: 10px;
+    width: 15%;
+    padding-left: 50px;
+}
+
+li{
+    /* color: black; */
+    display: inline-block;
+    /* text-decoration: none; */
+    list-style: none;
+}
+
+li a{
+    color: black;
+    text-decoration: none;
+    margin-right: 25px;
+}
+li a:hover{
+    text-decoration:underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
+}
+.download_button{
+    color: black;
+    background-color: lightgreen;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-left: -10px; 
+    margin-right: 70px;
+}
+.download_button:hover {
+    transform: scale(1,1);
+    animation-duration: 3ms;
+    background-color: green;
+}
+
+.text{
+    margin: 70px;
+}
+
+.text h1{
+    font-size: 60px;
+    color: white;
+}
+
+.text h3{
+    font-size: 20px;
+    color: #F90854;
+}
+
+.trailer video{
+    padding-left: 420px;
+}
+.container{
+    padding-top: 200px;
+    padding-left: 100px;
+    width: 90%;
+    height: 780px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1{
+    background: url(../assets/EUR_and_MENA_Snapdragon_Mobile_Open_Season_1_62bf88f2c9.png);
+    margin: 0;
+    width: 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background: white; */
+    /* border: white solid 2px; */
+    /* border-radius: 8px; */
+    height: 70%;
+   
+    
+}
+.box2{
+    background: url(../assets/EUR_and_MENA_Snapdragon_Mobile_Open_Season_1_62bf88f2c9.png);
+    margin: 0;
+    width: 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background: white; */
+    /* border: white solid 2px; */
+    /* border-radius: 8px; */
+    height: 70%;
+   
+   
+    
+}
+.box3{
+    background: url(../assets/EUR_and_MENA_Snapdragon_Mobile_Open_Season_1_62bf88f2c9.png);
+    margin: 0;
+    width: 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background: white; */
+    /* border: white solid 2px; */
+    /* border-radius: 8px; */
+    height: 70%;
+   
+   
+}
+.box4{
+    background: url(../assets/AS_9_Porsche_Asphalt_Series_background_db59b1e293.png);
+    margin: 0;
+    width: 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background: white; */
+    /* border: white solid 2px; */
+    /* border-radius: 8px; */
+    height: 70%;
+   
+    
+}
+
+.text1 h2{
+    padding: 10px 35px;
+    color: white;
+}
+.text1 button{
+    padding: 5px 15px;
+    /* opacity: 0.5; */
+    margin-left: 35px;
+    border: 2px solid black;
+    border-radius: 5px  ;
+}
+.text1 p{
+    font-size: 12px;
+    padding-left: 35px;
+    opacity: 0.8;
+    text-align: justify;
+    padding-right: 35px;
+    color: white;
+ 
+}
+.text2 h2{
+    padding: 10px 35px;
+    color: white;
+}
+.text2 button{
+    padding: 5px 15px;
+    /* opacity: 0.5; */
+    margin-left: 35px;
+    border: 2px solid black;
+    border-radius: 5px  ;
+}
+.text2 p{
+    font-size: 12px;
+    padding-left: 35px;
+    opacity: 0.8;
+    text-align: justify;
+    padding-right: 35px;
+    color: white;
+}
+
+.text3 h2{
+    padding: 10px 35px;
+    color: white;
+}
+.text3 button{
+    padding: 5px 15px;
+    /* opacity: 0.5; */
+    margin-left: 35px;
+    border: 2px solid black;
+    border-radius: 5px  ;
+}
+.text3 p{
+    font-size: 12px;
+    padding-left: 35px;
+    opacity: 0.8;
+    text-align: justify;
+    padding-right: 35px;
+    color: white;
+}
+
+.text4 h2{
+    padding: 10px 35px;
+}
+.text4 button{
+    padding: 5px 15px;
+    /* opacity: 0.5; */
+    margin-left: 35px;
+    border: 2px solid black;
+    border-radius: 5px  ;
+}
+.text4 p{
+    font-size: 12px;
+    padding-left: 35px;
+    opacity: 0.8;
+    text-align: justify;
+    padding-right: 35px;
+}
+.image1 img{
+    width: 100%; 
+}
+.image2 img{
+    width: 100%; 
+}
+.image3 img{
+    width: 100%;
+}
+.image4 img{
+    width: 100%;
+}
+
+.container2{
+    width: 100%;
+    text-align: center;
+}
+.container2 h1{
+    color: white;
+    font-size: 50px;
+}
+
+.images{
+    padding-left: 150px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 50; */
+}
+.images img{
+    width: 35%;
+}
+.container3{
+    width: 100%;
+    text-align: center;
+}
+.container3 h1{
+    padding-top: 200px;
+    color: white;
+    font-size: 50px;
+}
+.container3 p{
+    color: white;
+}
+.images1{
+    padding-top: 150px;
+    /* padding-left: 150px; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 50; */
+}
+.images1 img{
+    width: 15%;
+}
+.images2{
+    /* padding-left: 150px; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 50; */
+}
+.images2 img{
+    padding-top: 100px;
+    width: 15%;
+    padding-bottom: 100px;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.platform{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.platform img{
+    padding-top: 70px;
+    width: 10%;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.copyright{
+    padding-top: 20px;
+    font-weight: lighter;
+}

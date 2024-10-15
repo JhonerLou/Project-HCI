@@ -1,0 +1,228 @@
+@font-face {
+    font-family: 'Rajdhani';
+    src: url('../assets/Rajdhani-Bold.ttf');
+}
+
+body {
+    margin: 0;
+    font-family: 'Rajdhani';
+    background: url(../assets/lamborghini_huracan_evo_sport_black_car_4k_hd_cars-3840x2160.jpg);
+    background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: none;
+    background-color: transparent;
+}
+
+
+.logo img{
+    padding-top: 10px;
+    width: 15%;
+    padding-left: 50px;
+}
+
+li{
+    /* color: black; */
+    display: inline-block;
+    /* text-decoration: none; */
+    list-style: none;
+}
+
+li a{
+    color: black;
+    text-decoration: none;
+    margin-right: 25px;
+}
+li a:hover{
+    text-decoration:underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
+}
+.download_button{
+    color: black;
+    background-color: lightgreen;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-left: -10px; 
+    margin-right: 70px;
+}
+.download_button:hover {
+    transform: scale(1,1);
+    animation-duration: 3ms;
+    background-color: green;
+}
+
+/* .background_1{
+    /* background-position: 50px 50px; */
+    /* width: 100%;
+    opacity: 75%;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+
+.puncline{
+    padding: 50px;
+}
+.judul2{
+    font-size: 75px;
+    color: white;
+}
+.caption2{
+    font-size: 30px;
+    color: #F90854;
+}
+
+.slider{
+    /* display: flex; */
+    padding-left: 400px;
+    padding-bottom: 250px;
+    position: relative;
+    overflow: hidden;
+    width: 50%;
+    /* height: 10%; */
+}
+.container{
+    /* background: url(../assets/lamborghini_huracan_evo_sport_black_car_4k_hd_cars-3840x2160.jpg);
+    background-size: cover; */
+    height: 10%;
+}
+.images {
+    display: flex;
+    width: 100%;
+}
+.images img {
+    /* border: t; */
+    height: 600px;
+    width: 100%;
+    transition: all 0.15s ease;
+}
+.images input {
+    display: none;
+}
+.dots {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.dots label {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid red 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+}
+.dots label:hover {background: #fff;}
+#img1:checked ~ .m1 {
+    margin-left: 0;
+}
+#img2:checked ~ .m2 {
+    margin-left: -100%;
+}
+#img3:checked ~ .m3 {
+    margin-left: -200%;
+}
+#img4:checked ~ .m4 {
+    margin-left: -300%;
+}
+
+#img5:checked ~ .m5 {
+    margin-left: 0;
+}
+#img6:checked ~ .m6 {
+    margin-left: -100%;
+}
+#img7:checked ~ .m7 {
+    margin-left: -200%;
+}
+#img8:checked ~ .m8 {
+    margin-left: -300%;
+}
+
+#img9:checked ~ .m9 {
+    margin-left: 0;
+}
+#img10:checked ~ .m10 {
+    margin-left: -100%;
+}
+#img11:checked ~ .m11 {
+    margin-left: -200%;
+}
+#img12:checked ~ .m12 {
+    margin-left: -300%;
+}
+#img13:checked ~ .m13 {
+    margin-left: 0;
+}
+#img14:checked ~ .m14 {
+    margin-left: -100%;
+}
+#img15:checked ~ .m15 {
+    margin-left: -200%;
+}
+#img16:checked ~ .m16 {
+    margin-left: -300%;
+}
+#img17:checked ~ .m17 {
+    margin-left: 0;
+}
+#img18:checked ~ .m18 {
+    margin-left: -100%;
+}
+#img19:checked ~ .m19 {
+    margin-left: -200%;
+}
+#img20:checked ~ .m20 {
+    margin-left: -300%;
+}
+.car1{
+    text-align: center;
+    color: white;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.platform{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.platform img{
+    padding-top: 70px;
+    width: 10%;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.copyright{
+    padding-top: 20px;
+    font-weight: lighter;
+}
+
+/* .car-details {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+} */
